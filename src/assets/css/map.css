@@ -1,0 +1,15 @@
+ .gm-style-iw {
+	top: 0 !important;
+    left: 0 !important;
+    padding: 8px;
+}
+
+.gm-style-iw h5 {
+    margin-top: 15px;
+}
+
+#infoWindow h4 {
+    line-height: unset;
+    margin-top: unset;
+    margin-bottom: 12px;
+}

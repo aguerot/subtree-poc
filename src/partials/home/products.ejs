@@ -1,0 +1,26 @@
+<section id='works' class="s-works">
+
+    <div class="intro-wrap">
+
+        <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Nos produits</h3>
+                <h1 class="display-2 display-2--light">
+                    <cite>"J’ai cherché à appliquer au cidre ce que j’ai appris de l’œnologie"</cite>
+                </h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row works-content">
+        <div class="col-full masonry-wrap">
+            <div class="masonry" id="products">
+                <% (products || []).forEach(p => {%>
+                    <%- include('product', { product: p }) %>
+                <%})%>
+            </div>
+        </div>
+    </div>
+
+</section>

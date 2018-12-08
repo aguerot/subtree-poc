@@ -1,0 +1,37 @@
+@media print {
+    @page { margin: 0; }
+    body {
+        background-color: white;
+    }
+    .parallax-mirror,
+    .s-home,
+    .home-content__buttons,
+    .home-content__scroll,
+    .home-content__line,
+    .print-btn {
+        display: none;
+    }
+
+    .lead, .add-bottom {
+        margin-bottom: 0 !important;
+    }
+    /* .s-home {
+        min-height: 300px !important;
+        height: 300px !important;
+        max-height: 300px !important;
+    } */
+    
+    .s-home .home-content {
+        padding-bottom: 15px !important;
+        background: url('/images/produits/corme.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .footer-bottom {
+        margin-top: 0 !important;
+        color: black;
+    }
+    .footer-bottom .copyright span:nth-child(2){
+        display: none;
+    }
+}
