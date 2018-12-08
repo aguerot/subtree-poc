@@ -74,15 +74,15 @@ module.exports = {
         seeMoreUrl: "",
         seeMoreTitle: ""
       },
-      {
-        title: "Poiré Granit",
-        category: "Gastronomie - 750ml et magnum 1500ml",
-        caption: "\"Granit\" définit la roche où les racines du poirier plongent dans les failles de granit. Le système racinaire en profondeur du poirier marque sa minéralité. Cet aspect est davantage présent sur cette cuvée issue d'arbres très anciens. Assemblage d'un maximum de variétés dans le respect du millésime - <small>(4%/vol)</small><br/>S'accompagne de la grande cuisine des produits nobles, en apéritif avant de grands vins blancs ou en fin de repas.",
-        smallImage: "images/produits/poire-granit-grand-cru.jpg",
-        detailsImage: "images/produ-its/poire-granit-grand-cru-details.jpg",
-        seeMoreUrl: "",
-        seeMoreTitle: ""
-      },
+      // {
+      //   title: "Poiré Granit",
+      //   category: "Gastronomie - 750ml et magnum 1500ml",
+      //   caption: "\"Granit\" définit la roche où les racines du poirier plongent dans les failles de granit. Le système racinaire en profondeur du poirier marque sa minéralité. Cet aspect est davantage présent sur cette cuvée issue d'arbres très anciens. Assemblage d'un maximum de variétés dans le respect du millésime - <small>(4%/vol)</small><br/>S'accompagne de la grande cuisine des produits nobles, en apéritif avant de grands vins blancs ou en fin de repas.",
+      //   smallImage: "images/produits/poire-granit-grand-cru.jpg",
+      //   detailsImage: "images/produ-its/poire-granit-grand-cru-details.jpg",
+      //   seeMoreUrl: "",
+      //   seeMoreTitle: ""
+      // },
       {
         title: "Cormé",
         category: "Gastronomie - 500ml",
